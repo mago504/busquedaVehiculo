@@ -12,7 +12,7 @@ class VehiculoController{
 			$data = array(
 				'id' => $_POST['id']
 			);
-			$vehiculo = Vehiculo::getEmploye($data);
+			$vehiculo = Vehiculo::getVehiculo($data);
 			return $vehiculo;
 		}
 	}
